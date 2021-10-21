@@ -2,6 +2,7 @@ package exercise2;
 
 import java.util.Scanner;
 
+<<<<<<< HEAD
 public class SumOfDigits {
 
     public static void main(String[] args) {
@@ -20,6 +21,11 @@ public class SumOfDigits {
 
       System.out.println("Sum of digits: " + sum);
     
+=======
+public class BasicInput {
+
+    public static void main(String[] args) {
+>>>>>>> 63dff2eef559dbe384555733a2439bd6da57b9b7
         
     }
 
