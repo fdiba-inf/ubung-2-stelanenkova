@@ -4,23 +4,21 @@ import java.util.Scanner;
 
 public class SumOfDigits {
 
-    public static void main(String[] args) {
-      Scanner input = new Scanner(System.in);
+   public static void main(String[] args) {
+     Scanner input = new Scanner(System.in);
 
-  
-      int number = input.nextInt();
+     System.out.print("Enter a number: ");
+     int number = input.nextInt();
 
-      int firstDigit = number % 10;
-      number = number / 10;
-      int secondDigit = number % 10;
-      number = number / 10;
-      int thirdDigit = number % 10;
+     int firstDigit = number % 10;
+     number = number / 10;
+     int secondDigit = number % 10;
+     number = number / 10;
+     int thirdDigit = number % 10;
       
-      int sum = firstDigit + secondDigit + thirdDigit;
+     int sum = firstDigit + secondDigit + thirdDigit;
 
-      System.out.println("Sum of digits: " + sum);
-    
-        
-    }
-
+     System.out.println("Sum of digits: " + sum); 
+  }
+  
 }
